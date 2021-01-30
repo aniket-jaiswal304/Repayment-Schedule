@@ -16,12 +16,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8163a14-af61-40ae-a8b2-d4fd89135424" name="Default Changelist" comment="Created Project Structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/model/RepaymentSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repayment-Schedule.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Repayment-Schedule.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/config/WebInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/controller/RepaymentScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/dao/RepaymentScheduleDaoI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/dao/RepaymentScheduleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/model/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/service/RepaymentScheduleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nucleus/loan/repaymentschedule/service/RepaymentScheduleServiceI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/RepaymentScheduleHome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/RepaymentScheduleReport.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +200,14 @@
   <component name="EjbViewSettings">
     <EjbView showMembers="false" autoscrollToSource="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -245,6 +268,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1nmbLCJODXzdRk1fnacrJaXdfV5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewSettings">
     <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
     <view id="ProjectPane">
@@ -310,16 +336,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
     <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
   </component>
-  <component name="StructureViewFactory">
-    <option name="SORT_MODE" value="0" />
-    <option name="GROUP_INHERITED" value="true" />
-    <option name="AUTOSCROLL_MODE" value="true" />
-    <option name="SHOW_FIELDS" value="true" />
-    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
-    <option name="GROUP_GETTERS_AND_SETTERS" value="true" />
-    <option name="SHOW_INHERITED" value="false" />
-    <option name="HIDE_NOT_PUBLIC" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -361,7 +377,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -422,5 +450,11 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611999560671">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="484" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1611999560671" />
   </component>
 </project>
