@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [30/Jan/2021:14:51:10 +0530] "GET /repaymentSchedule HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/Jan/2021:14:51:12 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 57 http-bio-8080-exec-3 1228
+0:0:0:0:0:0:0:1 - - [30/Jan/2021:14:51:12 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
