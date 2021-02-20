@@ -9,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -21,20 +20,6 @@ public class RepaymentScheduleController
     @GetMapping("/")
     public String getRepaymentSchedulePage()
     {
-        return "repaymentScheduleHome";
-    }
-
-
-    @GetMapping("/add")
-    public String addRepaymentSchedulePage(@ModelAttribute("loan") String loan)
-    {
-        LoanApplication loanApplication = new LoanApplication();
-        loanApplication.setLoanApplicationNumber(loan);
-        loanApplication.setLoanAmountRequested(250000);
-        loanApplication.setRate(12);
-        loanApplication.setTenure(20);
-        loanApplication.setInstallmentDueDate(new Date());
-        repaymentScheduleService.addRepaymentSchedule(loanApplication);
         return "repaymentScheduleHome";
     }
 

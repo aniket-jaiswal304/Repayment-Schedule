@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
-<%@ include file="header.html" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +14,8 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/jqueryui/dataTables.jqueryui.css">
 </head>
 <body>
+
+  <%@ include file="header.jsp" %>
   <div class="page-header">
     <h1>Repayment Schedule</h1>
   </div>

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:01:29 +0530] "GET /repaymentSchedule HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:01:30 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 6078 http-bio-8080-exec-3 1277
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:01:49 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 3956 http-bio-8080-exec-4 279
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:02:42 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 3379 http-bio-8080-exec-6 225
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:04:15 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 6076 http-bio-8080-exec-1 1270
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:04:34 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 3381 http-bio-8080-exec-3 137
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:04:48 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 6076 http-bio-8080-exec-4 292
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:05:13 +0530] "GET /repaymentSchedule/ HTTP/1.1" 200 3935 http-bio-8080-exec-6 248
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:07:43 +0530] "GET /OnlineShopping/shoppingCart HTTP/1.1" 404 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:20:07:50 +0530] "GET /OnlineShopping HTTP/1.1" 404 - http-bio-8080-exec-9 0

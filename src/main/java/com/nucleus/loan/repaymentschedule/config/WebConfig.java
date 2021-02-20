@@ -1,7 +1,5 @@
 package com.nucleus.loan.repaymentschedule.config;
 
-import com.nucleus.loan.repaymentschedule.model.LoanApplication;
-import com.nucleus.loan.repaymentschedule.model.RepaymentSchedule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -59,7 +57,7 @@ public class WebConfig implements WebMvcConfigurer
         LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
         factoryBean.setDataSource(getDataSource());
         factoryBean.setHibernateProperties(hibernateProperties());
-        factoryBean.setAnnotatedClasses(RepaymentSchedule.class,LoanApplication.class);
+        factoryBean.setPackagesToScan("com.nucleus.loan.repaymentschedule.model");
 
         return factoryBean;
     }
